@@ -11,17 +11,4 @@ Características:
 - Posibilidad de organizar las listas de objetos en categorías para facilitar la introducción de información
 - Se pueden cambiar fácilmente los ajustes de cada objeto fabricable
 
-  **********************
-
-  Simple Qbcore crafting and processing script based on angelicxs-SimpleCraft.
-
-Compatible with qb-target/qtarget/ox_target
-Compatible with qb-menu/nh-context/ox_libs
-
-Features:
-- Unlimited locations can be configured
-- Access to each location can be limited based on the item the player needs in their inventory
-- Each location can have as many item categories (or a combination of them) as desired
-- Item lists can be organized into categories for easy entry
-- Settings for each craftable item can be easily changed
 
