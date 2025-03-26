@@ -1,26 +1,25 @@
 Config = {}
 
-Config.UseESX = false						-- Use ESX Framework
-Config.UseQBCore = true					-- Use QBCore Framework (Ignored if Config.UseESX = true)
+Config.UseESX = false						
+Config.UseQBCore = true					
 
-Config.UseCustomNotify = false				-- Use a custom notification script, must complete event below.
+Config.UseCustomNotify = false				
 
--- Only complete this event if Config.UseCustomNotify is true; mythic_notification provided as an example
 RegisterNetEvent('qb-process:CustomNotify')
 AddEventHandler('qb-process:CustomNotify', function(message, type)
-    --exports.mythic_notify:SendAlert(type, message, 4000)
+    
 end)
 
-Config.NHInput = false						-- Use NH-Input [https://github.com/nerohiro/nh-keyboard]
-Config.NHMenu = false						-- Use NH-Menu [https://github.com/whooith/nh-context]
-Config.QBInput = true						-- Use QB-Input (Ignored if Config.NHInput = true) [https://github.com/qbcore-framework/qb-input]
-Config.QBMenu = true						-- Use QB-Menu (Ignored if Config.NHMenu = true) [https://github.com/qbcore-framework/qb-menu]
-Config.OXLib = false						-- Use the OX_lib (Ignored if Config.NHInput or Config.QBInput = true) [https://github.com/overextended/ox_lib]  !! must add shared_script '@ox_lib/init.lua' and lua54 'yes' to fxmanifest!!
+Config.NHInput = false						
+Config.NHMenu = false						
+Config.QBInput = true						
+Config.QBMenu = true						
+Config.OXLib = false						
 
-Config.UseThirdEye = true					-- If true, allows use of third eye
-Config.ThirdEyeName = 'qb-target'			-- If Config.UseThirdEye = true, name of third eye program
-Config.Show3DText = false					-- If true, will show 3D text when near crafting point.
-Config.PropName =  'bkr_prop_weed_table_01a'		-- Name of prop is used for location. --prop_tool_bench02
+Config.UseThirdEye = true					
+Config.ThirdEyeName = 'qb-target'			
+Config.Show3DText = false					
+Config.PropName =  'bkr_prop_weed_table_01a'		
 
 Config.ItemMenu = {
 	--lab1
@@ -159,9 +158,6 @@ Config.LocationInfo = {
 	[1] = {
 		Location = vector4(2436.17, 4965.49, 42.35, 222.72),
 		Categories = {'Procesar Metanfetaminas'},
-		--RequireMenuItem = false,
-		--RequiredMenuItemName = 'Cocaina',
-		--SpawnTableProp = false,
 	},
 	[2] = {
 		Location = vector4(2431.21, 4970.85, 42.35, 42.86),
@@ -234,16 +230,16 @@ Config.LocationInfo = {
 		Categories = {'Procesar Cocaina', 'Procesar Crack', 'Procesar Metanfetaminas', 'Procesar Éxtasis'}, 
 	},
 	--Tables
-	--[[ [19] = {
-		Location = vector4(-1517.92, 110.18, 46.99, 225.00), -- rancho 1454.42, 1136.27, 114.33, 270.00
+	[19] = {
+		Location = vector4(1454.42, 1136.27, 114.33, 270.00), 
 		Categories = {'Procesar Marihuana'},
 		SpawnTableProp = true
-	}, ]]
-	--[[ [20] = {
-		Location = vector4(-226.27, -1313.70, 30.89, 180.00),--Mechanic
+	}, 
+	[20] = {
+		Location = vector4(-226.27, -1313.70, 30.89, 180.00), 
 		Categories = {'Procesar Marihuana'},
 		SpawnTableProp = true
-	}, ]]
+	}, 
 }
 
 -- Language Configuration
