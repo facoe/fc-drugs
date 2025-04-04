@@ -171,72 +171,9 @@ Config.LocationInfo = {
 		Location = vector4(1389.27, 3605.00, 38.94, 292.59),
 		Categories = {'Procesar Crack'},
 	},
-	[5] = {
-		Location = vector4(2228.07, 5605.72, 54.87, 26.68),
-		Categories = {'Procesar Marihuana'},
-	},
-	[6] = {
-		Location = vector4(2230.48, 5606.76, 54.87, 285.41),
-		Categories = {'Procesar Marihuana'},
-	},
-	--cayo
-	[7] = {
-		Location = vector4(5196.14, -5133.68, 3.36, 246.57),
-		Categories = {'Procesar Metanfetaminas'},
-	},
-	[8] = {
-		Location = vector4(5194.59, -5137.23, 3.35, 167.30),
-		Categories = {'Procesar Éxtasis'},
-	},
-	[9] = {
-		Location = vector4(5212.03, -5129.80, 6.21, 274.91),
-		Categories = {'Procesar Cocaina'},
-	},
-	[10] = {
-		Location = vector4(5211.72, -5127.20, 6.21, 278.68),
-		Categories = {'Procesar Crack'},
-	},
-	[11] = {
-		Location = vector4(5187.23, -5147.22, 3.81, 87.70),
-		Categories = {'Procesar Marihuana'},
-	},
-	--labs
-	[12] = {
-		Location = vector4(-519.10, -1740.45, 16.73, 268.33),
-		Categories = {'Procesar Metanfetaminas'},
-	},
-	[13] = {
-		Location = vector4(-521.27, -1738.54, 17.20, 327.03),
-		Categories = {'Procesar Éxtasis'},
-	},
-	[14] = {
-		Location = vector4(-530.20, -1795.87, 21.61, 58.87),
-		Categories = {'Procesar Cocaina'},
-	},
-	[15] = {
-		Location = vector4(-527.76, -1796.60, 21.61, 328.79),
-		Categories = {'Procesar Crack'},
-	},
-	[16] = {
-		Location = vector4(1770.50, -1619.67, 113.64, 178.63),
-		Categories = {'Procesar Marihuana'},
-	},
-	[17] = {
-		Location = vector4(924.95, -1269.08, 20.71, 125.40),
-		Categories = {'Procesar Marihuana'},
-	},
-	[18] = {
-		Location = vector4(-1529.14, 97.27, 47.78, 31.75),
-		Categories = {'Procesar Cocaina', 'Procesar Crack', 'Procesar Metanfetaminas', 'Procesar Éxtasis'}, 
-	},
 	--Tables
-	[19] = {
+	[5] = {
 		Location = vector4(1454.42, 1136.27, 114.33, 270.00), 
-		Categories = {'Procesar Marihuana'},
-		SpawnTableProp = true
-	}, 
-	[20] = {
-		Location = vector4(-226.27, -1313.70, 30.89, 180.00), 
 		Categories = {'Procesar Marihuana'},
 		SpawnTableProp = true
 	}, 
