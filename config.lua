@@ -152,26 +152,6 @@ Config.ItemMenu = {
 			},
 		},
 	},
-	--lab4
-	['Imprimir Dinero Falso'] = {
-		ItemList = {
-			['Imprimir Papel'] = {
-				ItemName = 'counterfeit_block',
-				NumberReceived = 1,
-				CraftingItems = {
-					{itemname = 'counterfeit_paper', label = 'Rollo de Papel Especial', quantity = 1},
-					{itemname = 'counterfeit_dye', label = 'Tintes Especiales', quantity = 1},
-				},
-			},
-			['Cortar Bloque'] = {
-				ItemName = 'counterfeit_money',
-				NumberReceived = 100,
-				CraftingItems = {
-					{itemname = 'counterfeit_block', label = 'Bloque de Dinero Impreso', quantity = 1},
-				},
-			},
-		},
-	},
 }
 
 Config.LocationInfo = {
