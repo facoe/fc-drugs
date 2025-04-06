@@ -1,4 +1,4 @@
-# qb-drugs
+# fc-drugs
 Script sencillo de crafteos y procesos de drogas basado en angelicxs-SimpleCraft.
 
 Compatible con qb-target/qtarget/ox_target
