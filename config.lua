@@ -152,6 +152,26 @@ Config.ItemMenu = {
 			},
 		},
 	},
+	--lab4
+	['Imprimir Dinero Falso'] = {
+		ItemList = {
+			['Imprimir Papel'] = {
+				ItemName = 'counterfeit_block',
+				NumberReceived = 1,
+				CraftingItems = {
+					{itemname = 'counterfeit_paper', label = 'Rollo de Papel Especial', quantity = 1},
+					{itemname = 'counterfeit_dye', label = 'Tintes Especiales', quantity = 1},
+				},
+			},
+			['Cortar Bloque'] = {
+				ItemName = 'counterfeit_money',
+				NumberReceived = 100,
+				CraftingItems = {
+					{itemname = 'counterfeit_block', label = 'Bloque de Dinero Impreso', quantity = 1},
+				},
+			},
+		},
+	},
 }
 
 Config.LocationInfo = {
@@ -173,7 +193,7 @@ Config.LocationInfo = {
 	},
 	--Tables
 	[5] = {
-		Location = vector4(1454.42, 1136.27, 114.33, 270.00), 
+		Location = vector4(2485.00, 3718.50, 43.47, 219.47), 
 		Categories = {'Procesar Marihuana'},
 		SpawnTableProp = true
 	}, 
@@ -188,7 +208,7 @@ Config.LangType = {
 
 Config.Lang = {
 	['PressEOpenMenu'] = 'Prensione ~r~[E]~w~ para abrir.',
-	['OpenMenu'] = 'Procesar',
+	['OpenMenu'] = 'Fabricar',
 	['noaccess'] = 'No tiene el artículo requerido para acceder a esto.',
 	['menu_header'] = 'Menú de conversión',
 	['menu_header_items'] = 'Menú de elementos',
