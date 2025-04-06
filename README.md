@@ -1,5 +1,5 @@
 # qb-drugs
-Script sencillo de crafteos y procesos de drogas inspirado en angelicxs-SimpleCraft.
+Script sencillo de crafteos y procesos de drogas basado en angelicxs-SimpleCraft.
 
 Compatible con qb-target/qtarget/ox_target
 Compatible con qb-menu/nh-context/ox_libs
