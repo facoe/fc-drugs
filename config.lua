@@ -49,7 +49,7 @@ Config.ItemMenu = {
 	['Procesar Crack'] = {
 		ItemList = {
 			['Bolsa de Crack'] = {
-				ItemName = 'crack_baggy',
+				ItemName = 'crackbaggy',
 				NumberReceived = 1,
 				CraftingItems = {
 					{itemname = 'coke', label = 'Cocaina', quantity = 1},
@@ -73,7 +73,7 @@ Config.ItemMenu = {
 				},
 			},
 			['Bolsa de Metanfetaminas'] = {
-				ItemName = 'meth',
+				ItemName = 'methbaggy',
 				NumberReceived = 1,
 				CraftingItems = {
 					{itemname = 'methtray', label = 'Metanfetaminas', quantity = 1},
@@ -85,7 +85,7 @@ Config.ItemMenu = {
 	['Procesar Éxtasis'] = {
 		ItemList = {
 			['Éxtasis'] = {
-				ItemName = 'drug_ecstasy',
+				ItemName = 'xtc',
 				NumberReceived = 1,
 				CraftingItems = {
 					{itemname = 'liquidmix2', label = 'Aceite Base', quantity = 2},
@@ -99,7 +99,7 @@ Config.ItemMenu = {
 				ItemName = 'xtcbaggy',
 				NumberReceived = 1,
 				CraftingItems = {
-					{itemname = 'drug_ecstasy', label = 'Éxtasis', quantity = 1},
+					{itemname = 'xtc', label = 'Éxtasis', quantity = 1},
 					{itemname = 'empty_weed_bag', label = 'Bolsa Vacía', quantity = 1},
 				},
 			},
